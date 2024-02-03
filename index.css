@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #c7ffe6;
+}
+
+header {
+  background-color: #75ffac;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 80px 24px 80px;
+}
+
+header nav a {
+  color: #000;
+  font-size: 1.3em;
+  font-weight: 400;
+  padding: 22px;
+  text-decoration: none;
+}
+
+#nutricao,
+#dietas,
+#exercicios {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 24px 24px 50px 24px;
+  position: relative;
+}
+
+#alimentacao,
+#educacao_fisica {
+  background-color: #fff3be8c;
+  border-radius: 0 2500px 0 0;
+  display: flex;
+  align-items: center;
+  padding: 24px 80px 24px 80px;
+  position: relative;
+}
+
+#alimentacao {
+  border-radius: 2500px 0 0 0;
+}
+
+#resultados {
+  background-color: #fff3be8c;
+  border-radius: 2500px 2500px 0 0;
+  display: flex;
+  padding: 64px 80px;
+  margin: 0px 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.img_resultados {
+  background-color: #fff3be8c;
+  display: flex;
+  justify-content: center;
+  margin: 0px 50px 0px;
+}
+
+.img_resultados a {
+  padding: 24px 164px 24px 150px;
+  justify-content: space-between;
+}
+
+.img_resultados img {
+  margin: 0 25px 25px 10px;
+}
+
+img {
+  border-radius: 40px;
+}
+
+#resultados img {
+  margin: 5px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 650;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.paragrafo {
+  line-height: 150%;
+  max-width: 90%;
+  margin-bottom: 32px;
+}
+
+.button {
+  background-color: #61ffb8;
+  border-radius: 10px;
+  color: #000;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+#duvidas {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  background-color: #fff3be8c;
+  padding: 64px 80px;
+  margin: 0px 50px 50px;
+  border-radius: 0px 0px 50px 50px;
+}
+
+.duvida h3 {
+  border: 2px solid #ffd30e;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 24px;
+}
+
+.duvida p {
+  border-right: 1px solid #ffd30e;
+  border-bottom: 1px solid #ffd30e;
+  border-left: 1px solid #ffd30e;
+  border-radius: 0 0 10px 10px;
+  max-width: 100%;
+  margin-top: -38px;
+  padding: 0 24px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.duvida.active .paragrafo {
+  height: fit-content;
+  opacity: 1;
+  padding: 24px;
+}
+
+#alimentacao .button,
+#educacao_fisica .button,
+#resultados .button {
+  background-color: #ffd30e;
+  border-radius: 10px;
+  color: #000;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #61ffb86d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 64px 80px;
+}
+
+footer img,
+footer .tittle {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+footer a {
+  color: #000;
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+
+footer div p a {
+  max-width: 350px;
+  text-decoration: underline;
+}
+
+#copyright {
+  background-color: #8c979b;
+  color: #000;
+  text-align: center;
+  padding: 30px;
+}
+
+#copyright a {
+  color: #000;
+}
