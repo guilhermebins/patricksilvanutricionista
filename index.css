@@ -21,7 +21,7 @@ header nav a {
   color: #000;
   font-size: 1.3em;
   font-weight: 400;
-  padding: 22px;
+  padding: 0 24px 0 0;
   text-decoration: none;
 }
 
