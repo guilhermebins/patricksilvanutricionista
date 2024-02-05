@@ -13,6 +13,7 @@ header {
   background-color: #75ffac;
   display: flex;
   align-items: center;
+  gap: 40px;
   justify-content: space-between;
   padding: 24px 80px 24px 80px;
 }
@@ -22,6 +23,7 @@ header nav a {
   font-size: 1.3em;
   font-weight: 400;
   padding: 0 24px 0 0;
+  margin: 0 0 24px 24px;
   text-decoration: none;
 }
 
